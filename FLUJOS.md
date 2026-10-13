@@ -33,6 +33,7 @@
 - Páginas privadas: `noindex` y URLs con token no adivinable; los datos reales y el mapa de URLs quedan fuera del repo público.
 
 ## 5. GitHub
+- **Workflow guide**: [`GIT_WORKFLOW.md`](GIT_WORKFLOW.md) (branches, commits, pull requests, reviews, rebase, checks). Changes go through a branch + PR, never a direct push to `main`.
 - Cuenta: [github.com/franprzdev](https://github.com/franprzdev). Repos públicos para portfolio y proyectos; datos reales nunca en repos públicos (solo ejemplos inventados).
 - Repo nuevo: lo creo yo vacío y el asistente sube el código (commits claros, rama `main`).
 - README con qué es, cómo correrlo y cómo testearlo.

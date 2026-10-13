@@ -13,6 +13,7 @@ Mi forma de trabajar con asistentes de IA, solo en Markdown, para llevarla a cua
 | [`REGLAS.md`](REGLAS.md) | Reglas de trabajo fijas: qué hacer sin preguntar y qué confirmar antes. |
 | [`FLUJOS.md`](FLUJOS.md) | Flujos recurrentes: postulaciones, venta de automatizaciones, videos de datos, webs, GitHub. |
 | [`PROYECTOS.md`](PROYECTOS.md) | Proyectos actuales, descriptos de forma genérica. |
+| [`GIT_WORKFLOW.md`](GIT_WORKFLOW.md) | Git & GitHub workflow: everything through pull requests, branch naming, commit convention, PR content and review comments, Git Flow, rebase, checks, safety. |
 | [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md) | General guide for data-story videos: story in a config file, numbers computed with asserts, readability rules, audio, QA. |
 | [`CHANGELOG.md`](CHANGELOG.md) | Historial de cambios del repo. |
 
@@ -32,6 +33,7 @@ Mi forma de trabajar con asistentes de IA, solo en Markdown, para llevarla a cua
 
 This repo is Markdown only: ideas, ways of working and guides, no code. The concrete tools live in their own repos.
 
+- **Git & GitHub**: [`GIT_WORKFLOW.md`](GIT_WORKFLOW.md), how changes reach my repos (branches, commits, pull requests, reviews, rebase, checks).
 - **Data videos**: [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md), principles and a checklist that apply to any tool.
 
 ## Mantenimiento

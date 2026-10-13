@@ -1,9 +1,12 @@
 # Changelog
 
-## 2026-10-13 — harness de videos de datos
-- Nuevo `harness/data-video/`: pipeline en Python configurado por `story.yaml` (escenas: globo con rayos, timeline, número grande, ranking, zoom satelital, antes/después, cierre, fuentes), capa de datos (CSV/GeoJSON/shapefile y adaptadores de ejemplo NASA FIRMS, MODIS MCD64A1, Copernicus Sentinel-2), `facts.json` con asserts, reglas de legibilidad que frenan el build, música procedural a −14 LUFS, QA (contact sheet, hoja celular, tiempos), CLI/Makefile, Dockerfile y tests.
-- Ejemplo chico sin red: `harness/data-video/stories/sismos-argentina/` (USGS, dominio público).
-- Nuevo `SKILL_VIDEOS_DE_DATOS.md`, enlazado desde `README.md` y `FLUJOS.md` §3.
+## 2026-10-13 — solo Markdown
+- Se saca `harness/data-video/` (código, Makefile, Dockerfile, datos de ejemplo): el repo queda solo con ideas, formas de trabajar y guías en `.md`.
+- `SKILL_VIDEOS_DE_DATOS.md` reescrito como guía general, sin depender de ninguna herramienta.
+- `README.md` y `FLUJOS.md` §3 actualizados para no apuntar a código.
+
+## 2026-10-13 — guía de videos de datos
+- Nuevo `SKILL_VIDEOS_DE_DATOS.md`, enlazado desde `README.md` y `FLUJOS.md` §3. (Ese día también se agregó código de un harness, retirado en la entrada de arriba.)
 
 ## 2026-10-13 — versión inicial
 - README, SYSTEM_PROMPT, PERFIL, REGLAS, FLUJOS, PROYECTOS.

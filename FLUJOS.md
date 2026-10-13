@@ -18,6 +18,7 @@
 7. Producto a futuro: turnero por WhatsApp → CRM → lectura de documentos con IA.
 
 ## 3. Videos de visualización de datos (iterativo)
+- **Herramienta**: el harness [`harness/data-video/`](harness/data-video/) (skill: [`SKILL_VIDEOS_DE_DATOS.md`](SKILL_VIDEOS_DE_DATOS.md)). Un `story.yaml` por historia; `python -m harness check` → `qa --preview` → `make video`. Las reglas de abajo ya están implementadas ahí (asserts, legibilidad, −14 LUFS, contact sheet).
 - **Versionado**: una carpeta por versión `v1/ … vN/`, cada una con el `.mp4`, `script.md` (guion con tabla de tiempos), `sources.md` (cada número en pantalla → dataset → cálculo) y la descripción metodológica / declaración de IA si el concurso lo pide. No se pisa una versión: cada feedback genera la siguiente.
 - **Pipeline en código**: scripts `prep_*.py` → JSON de estadísticas → `render_vN.py` que lee todo y tiene `assert` por cada número y redondeo. Nada tipeado a mano.
 - **QA antes de entregar**: stills (capturas) de cada sección y contact sheet para revisar texto cortado, contraste y legibilidad (texto mínimo legible en celular); duración dentro del límite (p. ej. ≤ 60 s).

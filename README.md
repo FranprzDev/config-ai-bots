@@ -13,6 +13,8 @@ Mi forma de trabajar con asistentes de IA, en Markdown, para llevarla a cualquie
 | [`REGLAS.md`](REGLAS.md) | Reglas de trabajo fijas: qué hacer sin preguntar y qué confirmar antes. |
 | [`FLUJOS.md`](FLUJOS.md) | Flujos recurrentes: postulaciones, venta de automatizaciones, videos de datos, webs, GitHub. |
 | [`PROYECTOS.md`](PROYECTOS.md) | Proyectos actuales, descriptos de forma genérica. |
+| [`SKILL_VIDEOS_DE_DATOS.md`](SKILL_VIDEOS_DE_DATOS.md) | Skill: cómo pedirle a un bot un video de historia con datos usando el harness. |
+| [`harness/data-video/`](harness/data-video/) | Harness en código (Python): `story.yaml` + datos abiertos → video ≤ 60 s legible en celular. README, `AGENTS.md`, ejemplo y tests. |
 | [`CHANGELOG.md`](CHANGELOG.md) | Historial de cambios del repo. |
 
 ## Cómo usarlo
@@ -26,6 +28,10 @@ Mi forma de trabajar con asistentes de IA, en Markdown, para llevarla a cualquie
 2. **Adjuntá el resto como conocimiento** (*knowledge* / *project files*): `PERFIL.md`, `REGLAS.md`, `FLUJOS.md`, `PROYECTOS.md`.
 3. Si el bot no permite archivos, pegá `REGLAS.md` al inicio de la conversación cuando la tarea lo requiera.
 4. Cuando algo cambie (nuevo proyecto, nueva regla), actualizá el archivo y anotá el cambio en `CHANGELOG.md`.
+
+## Harnesses (código reutilizable)
+
+- **[`harness/data-video/`](harness/data-video/)**: videos de visualización de datos configurados con un `story.yaml` (globo + mapa + números verificados + música procedural). Para agentes de código: [`harness/data-video/AGENTS.md`](harness/data-video/AGENTS.md). Cómo pedirlo: [`SKILL_VIDEOS_DE_DATOS.md`](SKILL_VIDEOS_DE_DATOS.md).
 
 ## Mantenimiento
 

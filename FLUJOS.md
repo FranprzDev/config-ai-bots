@@ -18,9 +18,9 @@
 7. Producto a futuro: turnero por WhatsApp → CRM → lectura de documentos con IA.
 
 ## 3. Videos de visualización de datos (iterativo)
-- **Guía**: [`SKILL_VIDEOS_DE_DATOS.md`](SKILL_VIDEOS_DE_DATOS.md) (principios y checklist). La historia se define en un archivo de configuración; chequeo rápido de reglas → QA visual (contact sheet) → render completo.
+- **Guide**: [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md) (principles and checklist). The story is defined in a configuration file; quick rule check → visual QA (contact sheet) → full render.
 - **Versionado**: una carpeta por versión `v1/ … vN/`, cada una con el `.mp4`, `script.md` (guion con tabla de tiempos), `sources.md` (cada número en pantalla → dataset → cálculo) y la descripción metodológica / declaración de IA si el concurso lo pide. No se pisa una versión: cada feedback genera la siguiente.
-- **Pipeline en código**: preparación de datos → archivo de *facts* con todas las estadísticas → render que lee todo, con `assert` por cada número y redondeo. Nada tipeado a mano.
+- **Pipeline in code**: data preparation → a *facts* file with every statistic → a renderer that reads everything, with an `assert` for every number and rounding. Nothing typed by hand.
 - **QA antes de entregar**: stills (capturas) de cada sección y contact sheet para revisar texto cortado, contraste y legibilidad (texto mínimo legible en celular); duración dentro del límite (p. ej. ≤ 60 s).
 - **Audio**: loudness integrado **−14 LUFS**, true peak **≤ −1,5 dBFS**.
 - **Narrativa**: una sola visualización si las bases lo piden, una idea por escena, escala humana, líneas de base explícitas, cierre accionable. Menos texto en pantalla es mejor.

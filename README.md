@@ -13,7 +13,7 @@ Mi forma de trabajar con asistentes de IA, solo en Markdown, para llevarla a cua
 | [`REGLAS.md`](REGLAS.md) | Reglas de trabajo fijas: qué hacer sin preguntar y qué confirmar antes. |
 | [`FLUJOS.md`](FLUJOS.md) | Flujos recurrentes: postulaciones, venta de automatizaciones, videos de datos, webs, GitHub. |
 | [`PROYECTOS.md`](PROYECTOS.md) | Proyectos actuales, descriptos de forma genérica. |
-| [`SKILL_VIDEOS_DE_DATOS.md`](SKILL_VIDEOS_DE_DATOS.md) | Guía general para videos de historias con datos: historia en configuración, números calculados con asserts, reglas de lectura, audio, QA. |
+| [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md) | General guide for data-story videos: story in a config file, numbers computed with asserts, readability rules, audio, QA. |
 | [`CHANGELOG.md`](CHANGELOG.md) | Historial de cambios del repo. |
 
 ## Cómo usarlo
@@ -28,11 +28,11 @@ Mi forma de trabajar con asistentes de IA, solo en Markdown, para llevarla a cua
 3. Si el bot no permite archivos, pegá `REGLAS.md` al inicio de la conversación cuando la tarea lo requiera.
 4. Cuando algo cambie (nuevo proyecto, nueva regla), actualizá el archivo y anotá el cambio en `CHANGELOG.md`.
 
-## Harnesses y guías de trabajo
+## Harnesses and working guides
 
-Este repo es solo Markdown: ideas, formas de trabajar y guías, sin código. Las herramientas concretas viven en sus propios repos.
+This repo is Markdown only: ideas, ways of working and guides, no code. The concrete tools live in their own repos.
 
-- **Videos de datos**: [`SKILL_VIDEOS_DE_DATOS.md`](SKILL_VIDEOS_DE_DATOS.md), principios y checklist válidos para cualquier herramienta.
+- **Data videos**: [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md), principles and a checklist that apply to any tool.
 
 ## Mantenimiento
 

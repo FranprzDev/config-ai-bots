@@ -1,0 +1,37 @@
+# Perfil profesional (público)
+
+## Resumen
+- **Francisco Perez** — Software / AI Engineer. Tucumán, Argentina.
+- Estudiante de **Ingeniería en Sistemas de Información, UTN Facultad Regional Tucumán** (desde febrero 2022; egreso previsto **diciembre 2027**).
+- Idiomas: español (nativo), inglés (fluido), ruso (básico). Nacionalidad argentina.
+- GitHub: [github.com/franprzdev](https://github.com/franprzdev) · LinkedIn: [linkedin.com/in/franprzdev](https://linkedin.com/in/franprzdev)
+- Seniority con la que me presento: **Semi Senior**.
+
+## Stack confirmado
+| Área | Tecnologías |
+|---|---|
+| Frontend | React, Next.js, Astro, Three.js |
+| Backend | Node.js, Express, Python |
+| Datos / BaaS | Supabase (uso intensivo) |
+| Deploy / cloud | Vercel, Netlify, AWS |
+| Automatización | n8n (también como instructor) |
+| IA | Agentes con LLMs (Claude a diario en trabajo productivo), LangChain / LangGraph, RAG, multi-agente |
+| Otros | Go (una app; no es mi lenguaje principal), Git/GitHub, testing con Vitest y Playwright |
+
+## Experiencia (genérica)
+- **Sistema de automatización para un estudio contable de Buenos Aires** (freelance, 2025–2026): calendario de vencimientos impositivos con aprobaciones, historial de cambios e integración con Google Calendar y Gmail. Desde el relevamiento hasta la entrega con documentación técnica y guía de uso; el cliente lo usa con datos reales.
+- **Desarrollo de agentes de IA en producción** (part-time, 2026): sistemas multi-agente y RAG integrados con APIs de mensajería, usados por usuarios reales.
+- **Software factory** (2024–2025): desarrollo de software y participación en dailies Scrum de varios equipos.
+- **Instructor de n8n en el Poder Judicial de Tucumán**: capacité a personal y di una charla a directivos (C-level) explicando n8n y la automatización de procesos.
+
+## Logros
+- 🏆 **NASA Space Apps Challenge 2024 — ganador nacional (Argentina)** con *ExoGames*, plataforma educativa web con juegos sobre exoplanetas (Astro, React, Three.js), hecha desde cero durante la hackatón y considerada para la instancia global.
+- Instructor y orador de n8n para el Poder Judicial de Tucumán.
+- Proyectos propios en hackathons web3 (ver `PROYECTOS.md`).
+
+## Roles objetivo
+- **AI Engineer**, **Forward Deployed Engineer**, **Full-Stack Engineer**.
+- **Remoto** desde Argentina mientras termino la carrera; abierto a reubicarme más adelante (con sponsorship de visa).
+- Startups de IA, fintech, SaaS. También roles IT presenciales/híbridos cerca de casa en Tucumán.
+- **No** busco roles de data engineering / pipelines de ML (aunque me gustan los datos).
+- **No** roles donde Go sea el lenguaje principal.

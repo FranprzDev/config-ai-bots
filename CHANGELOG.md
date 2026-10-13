@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-13 — Git & GitHub workflow guide
+- New `GIT_WORKFLOW.md`: general guideline for how work reaches my repos (pull requests only, branch naming, commit convention, PR body and review comments, Git Flow, rebase, checks, safety), summarized from my own repos.
+- Linked from `README.md` and `FLUJOS.md` §5.
+
 ## 2026-10-13 — data-video guide in English
 - `SKILL_VIDEOS_DE_DATOS.md` renamed to `DATA_VIDEO_GUIDELINES.md` and translated to English; links in `README.md` and `FLUJOS.md` §3 updated.
 - The data-video additions (README table row and "Harnesses and working guides" section, FLUJOS §3 guide and pipeline lines, these changelog entries) translated to English.

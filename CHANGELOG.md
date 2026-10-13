@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-13 — code review lessons
+- New `CODE_REVIEW_LESSONS.md`: conventions distilled from my PR reviews (types, code style, PR hygiene, clean merge status).
+- Linked from `README.md`.
+
 ## 2026-10-13 — Git & GitHub workflow guide
 - New `GIT_WORKFLOW.md`: general guideline for how work reaches my repos (pull requests only, branch naming, commit convention, PR body and review comments, Git Flow, rebase, checks, safety), summarized from my own repos.
 - Linked from `README.md` and `FLUJOS.md` §5.

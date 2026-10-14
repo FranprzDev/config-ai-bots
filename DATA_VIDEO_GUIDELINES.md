@@ -115,6 +115,49 @@ principles, not the code.
 8. Iterate in versions (one folder or tag per version, never overwriting the previous one). Do not upload anywhere until I say
    it is finished.
 
+## Final delivery
+
+### Render in small chunks on memory-limited machines
+- A full-resolution render can need several GB of RAM (every image layer a frame uses is decoded). On a shared or small
+  machine the process gets killed partway, and a monolithic render then starts over.
+- Render the final in **small frame ranges**, each in its own process, and join the parts without re-encoding. Load
+  only the assets each range actually uses (a cheap probe pass that lists them is enough).
+- **Retry** each chunk several times with a pause before giving up, and **skip chunks that already finished**, so a
+  rerun resumes instead of repeating work. Use smaller chunks for the heaviest stretch.
+- Mux the audio once, after joining, and run the final QA on the joined file.
+- Keep this in a script with parameters (story, frame count, chunk size, retries, paths), never in one-off commands.
+
+### Re-encode before uploading
+- A master joined from chunks keeps the render's high bitrate. Make a separate upload copy: H.264 (x264) at CRF ≈ 20,
+  `yuv420p`, `+faststart`, audio copied untouched so the mastered loudness is kept. Expect ~40 % of the size with no
+  visible loss. Keep the master.
+- Smaller files upload faster and fail less often in browser uploads.
+
+### Thumbnail from a real frame
+- Cut the thumbnail from a frame of the video itself (the map or chart that defines it), so it promises exactly what
+  the viewer gets and needs no generated imagery.
+- 1280×720 JPG; the visual on one side (darkened, with a vignette so it melts into the background), the title in the
+  video's own typeface on the other, one accent colour on the key word, a short factual subtitle.
+- Make it with a parametrized script (frame time, crop, text, colours) and open the result before using it: check
+  clipped text and stray elements from the frame (legends, labels at the edge of the crop).
+
+### Uploading
+- Browser-automated file uploads to video platforms can fail (the file picker or the upload dialog does not take the
+  file). Keep a **manual upload fallback**: have the final file ready to hand over so a person can upload it in a
+  minute, instead of retrying automation indefinitely.
+- Never commit rendered videos, thumbnails or other large binaries to the code repository.
+
+## Anonymity checklist for contests
+For calls that judge entries anonymously:
+- [ ] Upload from a **pseudonymous channel**: both the channel **name** and the **handle** are pseudonymous (the handle
+      is easy to forget and shows in the URL).
+- [ ] Video set to **unlisted** (or whatever visibility the rules ask).
+- [ ] No real name in the on-screen credits, title, description, tags, file name or file metadata; credits use the
+      pseudonym.
+- [ ] No link to a repository, profile or site that reveals the author's identity (repo owner names count).
+- [ ] AI authorship declared the way the rules ask (for example: AI assistance for code under human direction).
+- [ ] Watch the uploaded video signed out, from the shared link, before submitting.
+
 ## QA checklist before delivery
 - [ ] Every on-screen number comes from the facts; every rounding has an assert; no hand-typed digit in a template.
 - [ ] Every data assignment rule (fallbacks, filters, boundaries) is written in the sources document.
@@ -128,6 +171,8 @@ principles, not the code.
       reports and test strings.
 - [ ] QA ran on the requested resolution; the 1080p final only after the human OK.
 - [ ] Timed script and sources document (number → dataset → computation) delivered alongside the video.
+- [ ] Final rendered from an approved draft; upload copy re-encoded; thumbnail checked by eye.
+- [ ] For anonymous contests: every item of the anonymity checklist ticked.
 
 ## How to ask a bot for it
 > Make a data video of ≤ … s about "…". Follow `DATA_VIDEO_GUIDELINES.md`: find open data and record the

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-14 — data-video final delivery
+- `DATA_VIDEO_GUIDELINES.md`: new "Final delivery" section (chunked, retried, resumable render on memory-limited machines; re-encode before upload; thumbnail from a real frame; manual upload fallback when browser automation fails) and an anonymity checklist for contests; workflow and QA checklist updated (720p drafts until approval).
+
 ## 2026-10-14 — data-video lessons
 - `DATA_VIDEO_GUIDELINES.md` extended with lessons from a real data-video pipeline: documented assignment rules and fragile roundings, approved rule exceptions, legends that match what is drawn, credits and authorship (no AI authorship, pseudonym hygiene), a new *Rendering and performance* section (720p drafts, design canvas, pre-scaled rasters, single-pass bloom, discarded ideas, honest benchmarks), *Tooling lessons*, and an updated workflow and QA checklist.
 

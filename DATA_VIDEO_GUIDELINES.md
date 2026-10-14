@@ -114,6 +114,8 @@ principles, not the code.
    the delivered file. Render 1080p with the final flag only after the human approves the cut, then run QA again.
 8. Iterate in versions (one folder or tag per version, never overwriting the previous one). Do not upload anywhere until I say
    it is finished.
+9. Final delivery: chunked final render, upload copy, thumbnail, upload (and, for contests, the anonymity checklist);
+   see the next two sections.
 
 ## Final delivery
 

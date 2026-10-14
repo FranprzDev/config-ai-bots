@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-14 — data-video lessons
+- `DATA_VIDEO_GUIDELINES.md` extended with lessons from a real data-video pipeline: documented assignment rules and fragile roundings, approved rule exceptions, legends that match what is drawn, credits and authorship (no AI authorship, pseudonym hygiene), a new *Rendering and performance* section (720p drafts, design canvas, pre-scaled rasters, single-pass bloom, discarded ideas, honest benchmarks), *Tooling lessons*, and an updated workflow and QA checklist.
+
 ## 2026-10-13 — code review lessons
 - New `CODE_REVIEW_LESSONS.md`: conventions distilled from my PR reviews (types, code style, PR hygiene, clean merge status).
 - Linked from `README.md`.

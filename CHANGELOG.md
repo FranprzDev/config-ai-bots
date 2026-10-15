@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-14 — insights
+- New `INSIGHTS.md`: first insight, keep a single xlsx tracker of every job application, check it before applying and update it after, so applications never overlap.
+- Linked from `README.md`.
+
 ## 2026-10-14 — data-video final delivery
 - `DATA_VIDEO_GUIDELINES.md`: new "Final delivery" section (chunked, retried, resumable render on memory-limited machines; re-encode before upload; thumbnail from a real frame; manual upload fallback when browser automation fails) and an anonymity checklist for contests; workflow and QA checklist updated (720p drafts until approval).
 

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-14 — tracker update guide
+- `INSIGHTS.md`: step-by-step guide to update the applications tracker (columns, statuses, duplicate check, regenerating the xlsx).
+
 ## 2026-10-14 — insights
 - New `INSIGHTS.md`: first insight, keep a single xlsx tracker of every job application, check it before applying and update it after, so applications never overlap.
 - Linked from `README.md`.

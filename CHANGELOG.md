@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-18 — weekly update
+- `REGLAS.md`: postulaciones (postular directo y completar formularios sin preguntar, nunca "sí" en preguntas eliminatorias sobre habilidades que no tengo, no mencionar faltantes en mails, horario de envío 08–19 ART, cold emails sin CV, CV de una página a medida, nada de comentarios ni notas en LinkedIn, no más Silver.dev); nueva sección §3b de código (reutilizar antes de crear, enums, implementación mínima, merge propio de PRs limpios y en verde); sin videos ni binarios en repos.
+- `FLUJOS.md`: CV a medida por aviso, tracker antes de postular, programas de embajadores, fframes + borradores 720p, link a convenciones de código.
+- `PERFIL.md`: portfolio, ~4 años de experiencia, C#, experiencia con fechas, formación complementaria, reubicación al terminar la carrera.
+- `PROYECTOS.md`: concurso de datos presentado, cierre de la campaña de escribanías, nuevos AdHorarium, ScopeProfit, canal de YouTube y portfolio.
+- `SYSTEM_PROMPT.md` y `GIT_WORKFLOW.md`: alineados con las reglas nuevas (merge propio de PRs limpios y en verde).
+
 ## 2026-10-14 — tracker update guide
 - `INSIGHTS.md`: step-by-step guide to update the applications tracker (columns, statuses, duplicate check, regenerating the xlsx).
 

@@ -3,10 +3,11 @@
 ## 1. Postulaciones laborales
 1. **Buscar**: roles remotos desde Argentina (startups de IA, fintech, SaaS) + roles locales en Tucumán. Fuentes: portales de empresas (Ashby, Greenhouse, Lever, Workday, Teamtailor), LinkedIn, Get on Board, listados de startups.
 2. **Filtrar** con `REGLAS.md` §8 (sin data engineering, sin visa requerida que no tengo, sin Go principal). Roles "stretch" senior se pueden intentar si el resto encaja.
-3. **Adaptar** el CV (versión AI Engineer) y las respuestas **sin inventar nada**. Respuestas cortas y naturales. Destacar: agentes LLM en producción, sistema para un estudio contable, NASA Space Apps 2024, instructor de n8n.
+3. **Adaptar** un CV de una página para cada aviso (base: versión AI Engineer), con una pasada de crítica y un chequeo ATS/honestidad antes de subirlo, y las respuestas **sin inventar nada**. Respuestas cortas y naturales. Destacar: agentes LLM en producción, sistema para un estudio contable, NASA Space Apps 2024, instructor de n8n.
 4. **Postular**: cuentas nuevas con mi email profesional + contraseña generada guardada por el asistente. Si aparece un captcha que el bot no puede resolver, pasarme el link para hacerlo yo.
-5. **Registrar** cada postulación (empresa, rol, link, fecha, estado) en un tracker.
+5. **Registrar** cada postulación (empresa, rol, link, fecha, estado) en un tracker; revisarlo antes de postular para no duplicar (ver `INSIGHTS.md`).
 6. **Seguimiento**: revisar el mail periódicamente y avisarme solo de lo que avanza; etiquetar los mails de búsqueda laboral para que no ensucien la bandeja.
+7. **Programas de embajadores estudiantiles** de empresas de IA/tech: revisar todos los días y postular a los abiertos para Argentina sin preguntar. Nunca inventar logros; pedirme solo lo que únicamente yo puedo dar (un video propio, referencias).
 
 ## 2. Venta de automatizaciones (cold email)
 1. **Elegir nicho** con poca presencia digital y procesos repetitivos (p. ej. escribanías: turnos, requisitos, estado de trámites).
@@ -18,6 +19,7 @@
 7. Producto a futuro: turnero por WhatsApp → CRM → lectura de documentos con IA.
 
 ## 3. Videos de visualización de datos (iterativo)
+- **Herramienta**: fframes (Rust) por defecto para videos, para iterar rápido. Borradores en 720p hasta mi OK final; recién ahí 1080p.
 - **Guide**: [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md) (principles and checklist). The story is defined in a configuration file; quick rule check → visual QA (contact sheet) → full render.
 - **Versionado**: una carpeta por versión `v1/ … vN/`, cada una con el `.mp4`, `script.md` (guion con tabla de tiempos), `sources.md` (cada número en pantalla → dataset → cálculo) y la descripción metodológica / declaración de IA si el concurso lo pide. No se pisa una versión: cada feedback genera la siguiente.
 - **Pipeline in code**: data preparation → a *facts* file with every statistic → a renderer that reads everything, with an `assert` for every number and rounding. Nothing typed by hand.
@@ -34,6 +36,7 @@
 
 ## 5. GitHub
 - **Workflow guide**: [`GIT_WORKFLOW.md`](GIT_WORKFLOW.md) (branches, commits, pull requests, reviews, rebase, checks). Changes go through a branch + PR, never a direct push to `main`.
+- **Code conventions**: [`CODE_REVIEW_LESSONS.md`](CODE_REVIEW_LESSONS.md) y `REGLAS.md` §3b (reutilizar antes de crear, enums, implementación mínima).
 - Cuenta: [github.com/franprzdev](https://github.com/franprzdev). Repos públicos para portfolio y proyectos; datos reales nunca en repos públicos (solo ejemplos inventados).
 - Repo nuevo: lo creo yo vacío y el asistente sube el código (commits claros, rama `main`).
 - README con qué es, cómo correrlo y cómo testearlo.

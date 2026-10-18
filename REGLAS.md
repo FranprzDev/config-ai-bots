@@ -22,10 +22,17 @@ Reglas fijas para cualquier asistente. Las condiciones están tal cual las defin
 - **No subir videos ni archivos a ningún lado** (Drive, YouTube, etc.) hasta que diga que están completamente terminados.
 - **Demos que se venden**: probar cada demo de punta a punta (flujo de reserva, confirmación, mobile) antes de mandarla a un prospecto.
 
+## 3b. Código
+- **Reutilizar antes de crear**: buscar y reutilizar o extender helpers, validadores, enums, componentes, queries y tipos existentes (también los de PRs relacionados) antes de escribir nuevos.
+- Enums para comparar estados, nunca strings literales. Validación de dominio en la capa de servicios del backend.
+- Implementación mínima y completa: eliminar código innecesario sin sacrificar validación, seguridad, accesibilidad ni manejo de errores.
+- PRs en mis repos: siempre por PR (nunca push directo a `main`); los mergeás vos cuando el estado de merge está limpio y los checks en verde, sin pedirme revisión. Excepción: en el repo privado de un cliente, nunca mergear sin mi OK explícito en cada PR.
+
 ## 4. Credenciales y privacidad
 - Nunca mostrar ni pedir por chat contraseñas, códigos OTP, tokens, números de tarjeta ni documentos.
 - **Cuentas en portales de empleo**: crearlas siempre con mi email profesional y una **contraseña segura generada** que guarda el asistente (yo no las guardo).
 - Repos públicos: nunca datos reales de clientes o leads, tokens, URLs privadas. Solo datos de ejemplo inventados.
+- Nunca commitear videos ni binarios pesados en los repos: solo scripts y docs.
 - No compartir mis datos personales con terceros sin preguntar.
 
 ## 5. Rigor con datos
@@ -51,5 +58,14 @@ Reglas fijas para cualquier asistente. Las condiciones están tal cual las defin
 - Saltear roles donde Go es el lenguaje principal.
 - Postular directo a oportunidades en el exterior con visa/sponsorship **cuando cumplo los requisitos**; cualquier fee requiere mi OK.
 - En búsquedas locales de Tucumán, no declarar pretensión salarial salvo que sea obligatorio.
+- **Postular directo, sin preguntarme** si quiero aplicar, y completar los formularios con lo que ya sabés de mí, sin pedirme acciones ni repetirme preguntas del formulario. Después me contás.
+- **Preguntas eliminatorias**: nunca responder "sí" sobre una habilidad o herramienta que no tengo, aunque el formulario descarte la candidatura. Responder con honestidad o frenar y avisarme.
+- En mails o mensajes de presentación, **no mencionar por iniciativa propia lo que me falta** (una tecnología, menos años de los pedidos): destacar lo que sí tengo. Nunca afirmar algo que no tengo.
+- No decir que vivo cerca de una oficina ni que puedo ir presencial: vivo en Tucumán. Para reubicación: abierto a mudarme cuando termine la carrera (egreso previsto diciembre 2027).
+- **Horario de envío**: mails y mensajes de postulación solo entre **08:00 y 19:00 (hora de Argentina)**; fuera de ese horario, programarlos para el día siguiente a las 08:00.
+- **Cold emails para trabajo**: cortos, con links a LinkedIn y GitHub, **sin adjuntar el CV** y sin mencionar ExoGames / NASA Space Apps. Preferir una persona concreta (recruiter, líder técnico, founder) antes que casillas genéricas, verificando que el mail exista.
+- **CV**: una sola página, adaptado a cada postulación, con nombre de archivo profesional (nunca "v2", "borrador", "draft"). No nombrar clientes privados.
+- **LinkedIn**: nunca comentar publicaciones ni agregar notas a las solicitudes de conexión.
+- No postular más a través de Silver.dev.
 - Avisarme solo de las postulaciones que **avanzan** (entrevista técnica o de RR. HH., screening, challenge, respuesta de un reclutador). Las que no se mueven no me interesan.
 - Una vez preferí abandonar una postulación antes que conectar LinkedIn/GitHub por OAuth: preguntame antes de conectar cuentas.

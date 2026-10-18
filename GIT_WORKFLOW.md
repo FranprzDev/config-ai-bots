@@ -5,7 +5,7 @@ How I want work to reach my repositories, whether a person or an AI agent does i
 ## 1. Everything goes through a pull request
 
 - **Never change `main`, `master` or any other primary branch directly.** Work on a descriptive branch and open a pull request.
-- **Do not merge a PR unless I explicitly ask for the merge.**
+- **On my own repos, merge the PR yourself once its merge status is clean and the checks are green; don't ask me to review it.** Exception: one private client repo needs my explicit OK on each PR, so never merge there without it.
 - Do not commit, push, open a PR, merge, deploy or change any external state unless that action was requested. A request to *implement* something authorizes local changes and validation, not publishing them.
 - When I ask for a PR, do the whole flow: check the scope, commit, validate, push, and open a **normal, ready-for-review PR**. Never a draft unless I ask for one.
 

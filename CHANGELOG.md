@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-21 — weekly update
+- `PERFIL.md`: AI Product Engineer, ~4 años con IA y 2 con GCP (nunca decir 5), Gemini, Rust, fecha de fin del rol de AI Engineer.
+- `REGLAS.md`: años de experiencia honestos, no pagar fees de plataformas, harness de videos sin tests (render de prueba 360p), reporte de pruebas en PRs de clientes.
+- `FLUJOS.md`: nuevo §2b de propuestas para clientes (brief ScopeProfit, versión sin jerga, PDF) y §3b de videos promocionales con el harness.
+- `PROYECTOS.md`: propuestas freelance en curso, portfolio simplificado, harness de videos promocionales y contribución open source a Cap.
+- `CODE_REVIEW_LESSONS.md`: reutilizar antes de crear, validación en la capa de servicios, middleware tras un rebase, merge pinneado al SHA.
+- `SYSTEM_PROMPT.md`: alineado con lo anterior.
+
 ## 2026-10-18 — weekly update
 - `REGLAS.md`: postulaciones (postular directo y completar formularios sin preguntar, nunca "sí" en preguntas eliminatorias sobre habilidades que no tengo, no mencionar faltantes en mails, horario de envío 08–19 ART, cold emails sin CV, CV de una página a medida, nada de comentarios ni notas en LinkedIn, no más Silver.dev); nueva sección §3b de código (reutilizar antes de crear, enums, implementación mínima, merge propio de PRs limpios y en verde); sin videos ni binarios en repos.
 - `FLUJOS.md`: CV a medida por aviso, tracker antes de postular, programas de embajadores, fframes + borradores 720p, link a convenciones de código.

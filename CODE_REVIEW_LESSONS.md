@@ -11,6 +11,9 @@ Conventions distilled from my own pull request reviews (Aug–Oct 2026) on TypeS
 
 ## Code style
 
+- Reuse is the standard: before writing a helper, validator, component, query or type, search the repo (and related open PRs) for an existing one and reuse or extend it. Never duplicate logic.
+- Domain validation lives in the backend service layer, so every path (direct edits, approvals, approver edits) shares it.
+
 - Use `async/await`; avoid `.then().catch()` chains.
 - Validate only what is needed (no `!value` before `Array.isArray(value)`, no redundant `typeof` checks).
 - Prefer plain, readable loops over clever array reducers for metrics.
@@ -27,4 +30,6 @@ Conventions distilled from my own pull request reviews (Aug–Oct 2026) on TypeS
 - Edit files directly; do not introduce helper scripts in another language for mechanical edits.
 - Run typecheck and tests after changing types, and list them under Validation.
 - Every PR must always show a clean merge status: no conflicts, no rebase problems, green checks. Rebase onto the base branch whenever it moves and verify mergeability before handing off.
+- After rebasing onto a base that added cross-cutting middleware (CSRF, auth, rate limits), check it against the routes your PR adds, even when the rebase had no textual conflicts.
+- Once a PR is clean and every check on its current head is green, merge it through the API pinned to that head SHA. In a client's private repo, never merge without the owner's explicit OK on that PR.
 - When addressing review comments, use one commit that names each comment it resolves, and record the lesson in the repo's `AGENTS.md`.

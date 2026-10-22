@@ -16,12 +16,13 @@ Descriptos a nivel público; los detalles privados (clientes, leads, montos) no 
 - Estado: la campaña de validación por cold email corrió del 13 al 16 de octubre de 2026.
 
 ## 3. Búsqueda laboral
-- Postulando a roles de AI Engineer, Forward Deployed Engineer y Full-Stack (remoto desde Argentina; startups de IA, fintech, SaaS; también roles IT en Tucumán y oportunidades en el exterior con sponsorship).
+- Postulando a roles de AI Engineer, AI Product Engineer, Forward Deployed Engineer y Full-Stack (remoto desde Argentina; startups de IA, fintech, SaaS; también roles IT en Tucumán y oportunidades en el exterior con sponsorship).
 - Ver `PERFIL.md` y `FLUJOS.md` §1.
 
 ## 4. Automatizaciones freelance
 - Sistemas de automatización para pymes y estudios profesionales con n8n, agentes de IA, Supabase e integraciones con Google Workspace y WhatsApp.
 - Caso real: sistema de vencimientos impositivos para un estudio contable de Buenos Aires (en uso con datos reales).
+- Propuestas en curso (octubre 2026): un agente de voz con IA (ElevenLabs) para atención telefónica de una gestoría y un agente de prospección B2B con IA (buscar, enriquecer y puntuar prospectos; el envío masivo queda como fase 2 opcional).
 
 ## 5. Proofy (hackathon web3)
 - Escrow en Solana con pagos por hitos: cada hito se libera cuando el código entregado pasa chequeos estáticos y tests dinámicos. Prototipo en devnet, no listo para producción.
@@ -41,4 +42,10 @@ Descriptos a nivel público; los detalles privados (clientes, leads, montos) no 
 - Si no elijo tema, se usa directamente el siguiente sugerido.
 
 ## 9. Portfolio
-- [franprz.vercel.app](https://franprz.vercel.app): proyectos destacados (ExoGames, ¿Dónde arde Argentina?, Proofy, una API de scraping de repuestos), SEO y datos estructurados.
+- [franprz.vercel.app](https://franprz.vercel.app): fondo oscuro simple (sin fondo 3D ni scroll-snap), línea de experiencia que se dibuja con el scroll, selector de mundos y sección de contacto; SEO y datos estructurados. El bloque de proyectos destacados se sacó en octubre 2026.
+
+## 10. Harness de videos promocionales
+- Plantilla en Rust (fframes) que genera anuncios verticales a partir de clips, guion y recursos definidos por configuración, con preview 360p, borrador 720p y final 1080p, procesamiento por lotes y QA automático de audio y frames. Subtítulos quemados apagados por defecto. Ver `FLUJOS.md` §3b.
+
+## 11. Contribuciones open source
+- PR de performance en Cap (grabador de pantalla open source, Rust): render directo de la máscara de pixelado en el editor GPUI. Pendiente de que el maintainer apruebe los workflows de CI del fork.

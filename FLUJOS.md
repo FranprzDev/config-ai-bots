@@ -18,6 +18,13 @@
 6. **Feedback** de un prospecto → implementarlo en su demo y responder. **Interesado en contratar → avisarme** (precios y condiciones los fijo yo).
 7. Producto a futuro: turnero por WhatsApp → CRM → lectura de documentos con IA.
 
+## 2b. Propuestas para clientes freelance
+1. **Brief** con el método de ScopeProfit: entrevista por rondas de preguntas, glosario, decisiones y alcance por fases; estimación en horas y riesgos. Sin precios inventados: el precio lo fijo yo.
+2. **Dos versiones**: el brief técnico y una propuesta para el cliente **sin jerga técnica**.
+3. **Entrega en PDF** (nunca un archivo editable), con mi marca.
+4. Lo opcional (p. ej. una fase 2) se cotiza por separado, no se mete en el precio base.
+5. Investigar costos reales de terceros (APIs, telefonía, consumo) antes de comprometer alcance; los paga el cliente.
+
 ## 3. Videos de visualización de datos (iterativo)
 - **Herramienta**: fframes (Rust) por defecto para videos, para iterar rápido. Borradores en 720p hasta mi OK final; recién ahí 1080p.
 - **Guide**: [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md) (principles and checklist). The story is defined in a configuration file; quick rule check → visual QA (contact sheet) → full render.
@@ -27,6 +34,13 @@
 - **Audio**: loudness integrado **−14 LUFS**, true peak **≤ −1,5 dBFS**.
 - **Narrativa**: una sola visualización si las bases lo piden, una idea por escena, escala humana, líneas de base explícitas, cierre accionable. Menos texto en pantalla es mejor.
 - **Entrega**: mostrar la versión nueva con un resumen de cambios y lo pendiente de decidir. No subir a ningún lado hasta que diga que está terminado.
+
+## 3b. Videos promocionales (harness reutilizable)
+- Un harness en Rust (fframes) arma muchos videos cortos verticales a partir de **clips + guion + recursos** definidos en un archivo de configuración; pensado para que más adelante una app permita subir clips y textos.
+- **Subtítulos quemados desactivados por defecto**: los agrego yo por fuera a partir del SRT.
+- Calidades: preview 360p → borrador 720p → final 1080p solo con mi OK.
+- Validación: render corto de prueba (360p), loudness −14 LUFS / true peak ≤ −1,5 dBTP, sin frames negros. Sin tests unitarios.
+- No hacer videos sueltos a mano cuando el pedido es mejorar el harness.
 
 ## 4. Proyectos web (Astro + Netlify)
 - Sitios estáticos con **Astro** (TypeScript, scripts simples sin framework cuando alcanza), una página por entidad cuando hace falta.

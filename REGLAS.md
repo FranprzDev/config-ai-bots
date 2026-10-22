@@ -26,13 +26,15 @@ Reglas fijas para cualquier asistente. Las condiciones están tal cual las defin
 - **Reutilizar antes de crear**: buscar y reutilizar o extender helpers, validadores, enums, componentes, queries y tipos existentes (también los de PRs relacionados) antes de escribir nuevos.
 - Enums para comparar estados, nunca strings literales. Validación de dominio en la capa de servicios del backend.
 - Implementación mínima y completa: eliminar código innecesario sin sacrificar validación, seguridad, accesibilidad ni manejo de errores.
-- PRs en mis repos: siempre por PR (nunca push directo a `main`); los mergeás vos cuando el estado de merge está limpio y los checks en verde, sin pedirme revisión. Excepción: en el repo privado de un cliente, nunca mergear sin mi OK explícito en cada PR.
+- Harness de videos: **sin unit tests ni integration tests**. La validación es práctica: un render corto de prueba en baja calidad (360p) que verifique pipeline, audio/loudness y ausencia de frames negros.
+- PRs en mis repos: siempre por PR (nunca push directo a `main`); los mergeás vos cuando el estado de merge está limpio y los checks en verde, sin pedirme revisión. Excepción: en el repo privado de un cliente, nunca mergear sin mi OK explícito en cada PR (dejar un reporte de pruebas en el PR y esperar).
 
 ## 4. Credenciales y privacidad
 - Nunca mostrar ni pedir por chat contraseñas, códigos OTP, tokens, números de tarjeta ni documentos.
 - **Cuentas en portales de empleo**: crearlas siempre con mi email profesional y una **contraseña segura generada** que guarda el asistente (yo no las guardo).
 - Repos públicos: nunca datos reales de clientes o leads, tokens, URLs privadas. Solo datos de ejemplo inventados.
 - Nunca commitear videos ni binarios pesados en los repos: solo scripts y docs.
+- No pagar fees de plataformas para publicar o monetizar (p. ej. marketplaces de skills): si algo cobra para empezar, no va salvo que yo lo pida.
 - No compartir mis datos personales con terceros sin preguntar.
 
 ## 5. Rigor con datos
@@ -53,6 +55,7 @@ Reglas fijas para cualquier asistente. Las condiciones están tal cual las defin
 
 ## 8. Búsqueda laboral
 - Presentarme como **Semi Senior**; inglés como **fluido**.
+- Experiencia: **casi 4 años**. Nunca afirmar 5 años o más aunque el aviso lo pida: destacar producción, ownership de punta a punta, agentes con LLMs y trato con clientes.
 - **No** postular a roles de data engineering / pipelines de ML / Databricks.
 - **Saltear roles que exigen ya tener una visa que no tengo** (p. ej. una visa de turista de EE. UU.).
 - Saltear roles donde Go es el lenguaje principal.

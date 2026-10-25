@@ -17,6 +17,7 @@ Mi forma de trabajar con asistentes de IA, solo en Markdown, para llevarla a cua
 | [`CODE_REVIEW_LESSONS.md`](CODE_REVIEW_LESSONS.md) | Code conventions distilled from my own PR reviews: enums for finite domains, no `any`, async/await, one concern per PR, clean merge status. |
 | [`INSIGHTS.md`](INSIGHTS.md) | Lessons learned working together, e.g. keep one xlsx tracker of every job application and check it before applying. |
 | [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md) | General guide for data-story videos: story in a config file, numbers computed with asserts, readability rules, legends and credits, audio, rendering and performance, QA. |
+| [`LANDING_DISENO.md`](LANDING_DISENO.md) | Base de diseño para landings que convierten (estrategia + sistema visual), adaptada del skill MIT de Elaya Design (original en `vendor/`). |
 | [`CHANGELOG.md`](CHANGELOG.md) | Historial de cambios del repo. |
 
 ## Cómo usarlo

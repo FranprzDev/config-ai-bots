@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-24 — daily update
+- `REGLAS.md`: formato del CV (debajo del nombre solo el título del puesto; proyectos sin links).
+
 ## 2026-10-21 — weekly update
 - `PERFIL.md`: AI Product Engineer, ~4 años con IA y 2 con GCP (nunca decir 5), Gemini, Rust, fecha de fin del rol de AI Engineer.
 - `REGLAS.md`: años de experiencia honestos, no pagar fees de plataformas, harness de videos sin tests (render de prueba 360p), reporte de pruebas en PRs de clientes.

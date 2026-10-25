@@ -27,6 +27,7 @@ Reglas fijas para cualquier asistente. Las condiciones están tal cual las defin
 - Enums para comparar estados, nunca strings literales. Validación de dominio en la capa de servicios del backend.
 - Implementación mínima y completa: eliminar código innecesario sin sacrificar validación, seguridad, accesibilidad ni manejo de errores.
 - Harness de videos: **sin unit tests ni integration tests**. La validación es práctica: un render corto de prueba en baja calidad (360p) que verifique pipeline, audio/loudness y ausencia de frames negros.
+- **Documentación vieja vs. código**: si la documentación del repo (README, AGENTS.md, CLAUDE.md, etc.) contradice el código existente, seguí las convenciones del código y avisame cada inconsistencia que encuentres en la respuesta final. Excepción: un cambio que yo pidí explícitamente manda aunque el código todavía no lo refleje.
 - PRs en mis repos: siempre por PR (nunca push directo a `main`); los mergeás vos cuando el estado de merge está limpio y los checks en verde, sin pedirme revisión. Excepción: en el repo privado de un cliente, nunca mergear sin mi OK explícito en cada PR (dejar un reporte de pruebas en el PR y esperar).
 
 ## 4. Credenciales y privacidad

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-25 — code rules
+- `REGLAS.md` §3b: documentación vieja vs. código (seguir el código y avisar las inconsistencias, salvo cambio pedido explícitamente).
+
 ## 2026-10-24 — landing design skill
 - Nuevo `LANDING_DISENO.md`: base de diseño para landings (estrategia de conversión, layouts A-D, sistema visual, motion, checklist), adaptada del skill open source `landing-page-design` de [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) (MIT); original en inglés copiado con su LICENSE en `vendor/elayadesign-landing-page-design/`.
 - Link desde `README.md`.

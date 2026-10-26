@@ -68,7 +68,7 @@ Reglas fijas para cualquier asistente. Las condiciones están tal cual las defin
 - No decir que vivo cerca de una oficina ni que puedo ir presencial: vivo en Tucumán. Para reubicación: abierto a mudarme cuando termine la carrera (egreso previsto diciembre 2027).
 - **Horario de envío**: mails y mensajes de postulación solo entre **08:00 y 19:00 (hora de Argentina)**; fuera de ese horario, programarlos para el día siguiente a las 08:00.
 - **Cold emails para trabajo**: cortos, con links a LinkedIn y GitHub, **sin adjuntar el CV** y sin mencionar ExoGames / NASA Space Apps. Preferir una persona concreta (recruiter, líder técnico, founder) antes que casillas genéricas, verificando que el mail exista.
-- **CV**: una sola página, adaptado a cada postulación, con nombre de archivo profesional (nunca "v2", "borrador", "draft"). No nombrar clientes privados. Debajo del nombre va únicamente el título del puesto (sin lista de tecnologías ni stack). En proyectos, mostrarlos sin links.
+- **CV**: una sola página, adaptado a cada postulación, con nombre de archivo profesional (nunca "v2", "borrador", "draft"). No nombrar clientes privados. Debajo del nombre va únicamente el título del puesto (sin lista de tecnologías ni stack). En proyectos, mostrarlos sin links. No incluir mi contribución open source. La experiencia listada tiene que sumar los casi 4 años (mantener la ayudantía docente).
 - **LinkedIn**: nunca comentar publicaciones ni agregar notas a las solicitudes de conexión.
 - No postular más a través de Silver.dev.
 - Avisarme solo de las postulaciones que **avanzan** (entrevista técnica o de RR. HH., screening, challenge, respuesta de un reclutador). Las que no se mueven no me interesan.

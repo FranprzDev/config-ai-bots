@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-25 — daily update
+- `REGLAS.md` §8: CV sin la contribución open source y con la experiencia listada sumando los casi 4 años (se mantiene la ayudantía docente).
+
 ## 2026-10-25 — code rules
 - `REGLAS.md` §3b: documentación vieja vs. código (seguir el código y avisar las inconsistencias, salvo cambio pedido explícitamente).
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-30 — OpenCode multiagente gratis
+- Nuevo `OPENCODE.md`: preset de oh-my-opencode-slim con modelos 100% gratuitos (provider `opencode`), cómo aplicarlo y estado de validación.
+- Link desde `README.md`.
+
 ## 2026-10-25 — daily update
 - `REGLAS.md` §8: CV sin la contribución open source y con la experiencia listada sumando los casi 4 años (se mantiene la ayudantía docente).
 

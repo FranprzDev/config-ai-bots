@@ -3,7 +3,7 @@
 ## 1. Postulaciones laborales
 1. **Buscar**: roles remotos desde Argentina (startups de IA, fintech, SaaS) + roles locales en Tucumán. Fuentes: portales de empresas (Ashby, Greenhouse, Lever, Workday, Teamtailor), LinkedIn, Get on Board, listados de startups.
 2. **Filtrar** con `REGLAS.md` §8 (sin data engineering, sin visa requerida que no tengo, sin Go principal). Roles "stretch" senior se pueden intentar si el resto encaja.
-3. **Adaptar** un CV de una página para cada aviso (base: versión AI Engineer), con una pasada de crítica y un chequeo ATS/honestidad antes de subirlo, y las respuestas **sin inventar nada**. Respuestas cortas y naturales. Destacar: agentes LLM en producción, sistema para un estudio contable, NASA Space Apps 2024, instructor de n8n.
+3. **Adaptar** un CV de una página para cada aviso (base: versión AI Engineer; ver [`skills/tailored-cv-apply`](skills/tailored-cv-apply/SKILL.md)), con una pasada de crítica y un chequeo ATS/honestidad antes de subirlo, y las respuestas **sin inventar nada**. Respuestas cortas y naturales. Destacar: agentes LLM en producción, sistema para un estudio contable, NASA Space Apps 2024, instructor de n8n.
 4. **Postular**: cuentas nuevas con mi email profesional + contraseña generada guardada por el asistente. Si aparece un captcha que el bot no puede resolver, pasarme el link para hacerlo yo.
 5. **Registrar** cada postulación (empresa, rol, link, fecha, estado) en un tracker; revisarlo antes de postular para no duplicar (ver `INSIGHTS.md`).
 6. **Seguimiento**: revisar el mail periódicamente y avisarme solo de lo que avanza; etiquetar los mails de búsqueda laboral para que no ensucien la bandeja.
@@ -55,3 +55,13 @@
 - Repo nuevo: lo creo yo vacío y el asistente sube el código (commits claros, rama `main`).
 - README con qué es, cómo correrlo y cómo testearlo.
 - Antes de cada push a un repo público: revisar que no haya teléfonos, emails, tokens, nombres de clientes o URLs privadas.
+
+## 6. Productos MCP-first
+- Si un producto lo va a usar un agente, empezar por un **servidor MCP** con herramientas bien tipadas y una landing que lo explique, no por un frontend de app (ScopeProfit, Presu, Reelsmith, UTN-MCP, GeoTucumán, el MCP del portfolio).
+- Local para el usuario final → binario único por **stdio** (p. ej. Rust + `rmcp`), distribuido por GitHub Releases multiplataforma con la config para Claude / Codex / OpenCode.
+- Para ChatGPT u otros clientes remotos → **Streamable HTTP** sobre un dominio HTTPS estable, con OAuth/API keys; trabajos pesados (renders) asíncronos con `job_id` y consulta de estado.
+- Herramientas de solo lectura sin secretos cuando es público (el MCP del portfolio); acciones con efecto (publicar, entregar) siempre con confirmación del usuario.
+- Para OpenCode multiagente con modelos gratis, ver `OPENCODE.md`.
+
+## 7. Automatizaciones recurrentes
+- Las tareas programadas en las que me apoyo (búsqueda laboral 5×/día, alertas de entrevistas, embajadores, novedades de concursos, actualización diaria de este repo, Shorts diarios) están descriptas en [`AUTOMATIONS.md`](AUTOMATIONS.md) para recrearlas en cualquier asistente.

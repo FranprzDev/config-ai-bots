@@ -22,10 +22,11 @@ Conventions distilled from my own pull request reviews (Aug–Oct 2026) on TypeS
 - Read configuration from the environment without hidden fallbacks in code (e.g. the model name).
 - Agent decisions go through the project's typed decision gate, not ad-hoc heuristics.
 - Delete dead pieces (unused subagents, files, env vars) instead of leaving them around.
+- In Next.js server actions, return expected errors (conflicts, validation, missing reasons) as typed data, so production builds don't swap them for a redacted generic error; validate required fields on the client before submitting too.
 
 ## Pull request hygiene
 
-- One concern per PR: style or CSS-framework migrations never ride along with feature work.
+- One concern per PR: style or CSS-framework migrations never ride along with feature work. Before a client demo, split an oversized PR into a small demo-safe PR and a follow-up.
 - Use only the repo's package manager (e.g. Bun where configured); never add a second lockfile.
 - Edit files directly; do not introduce helper scripts in another language for mechanical edits.
 - Run typecheck and tests after changing types, and list them under Validation.

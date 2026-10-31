@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-31 — handoff a un asistente nuevo
+- Nuevo `HANDOFF.md`: orden de lectura, las 10 reglas clave y temas abiertos al 31/10/2026.
+- Nuevo `AUTOMATIONS.md`: tareas programadas para recrear (búsqueda laboral 5×/día, alertas de entrevistas, embajadores, novedades de concursos, actualización diaria del repo, Shorts, panel de postulaciones).
+- Nuevo `skills/` con skills portables (`SKILL.md`): `franprzdev-code-conventions`, `ponytail` (MIT, adaptado), `tailored-cv-apply`, `premium-scroll-pages`, `cinematic-shot` (notas sobre 1weiho/cinematic-shot).
+- `PERFIL.md`: apellido sin tilde, intereses, MCP en el stack, servidor MCP del portfolio, Python en el rol de AI Engineer, paper en CoNaIISI 2026.
+- `PROYECTOS.md`: estado al 31/10 y proyectos nuevos (Presu, Reelsmith como MCP, portfolio + MCP, UTN-MCP, GeoTucumán); cliente en producción descripto de forma genérica.
+- `REGLAS.md`: términos freelance (§2b), excepción del canal de YouTube, merge del repo del cliente solo con mi OK, ramas/commits/PR, fframes + 720p, pretensión salarial sin montos, disponibilidad, outreach a founders, comunicación pública (§9).
+- `FLUJOS.md`: productos MCP-first (§6) y link a `AUTOMATIONS.md` (§7).
+- `INSIGHTS.md`: aprendizajes agregados de la búsqueda laboral, pushear temprano, verificar la versión que miro, un clone por agente.
+- `CODE_REVIEW_LESSONS.md`: errores de server actions como datos tipados; partir PRs grandes antes de una demo.
+- `SYSTEM_PROMPT.md` y `README.md`: alineados (índice con los archivos nuevos).
+
 ## 2026-10-30 — OpenCode multiagente gratis
 - Nuevo `OPENCODE.md`: preset de oh-my-opencode-slim con modelos 100% gratuitos (provider `opencode`), cómo aplicarlo y estado de validación.
 - Link desde `README.md`.

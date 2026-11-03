@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-03 — skill stack-diagram
+- `OPENCODE.md`: nueva sección para el skill de agente [caru-ini/stack-diagram](https://github.com/caru-ini/stack-diagram) (MIT), que genera diagramas de arquitectura del stack con logos oficiales (HTML autocontenido, PNG light/dark, React): instalación en `~/.config/opencode/skills/`, requisitos, validación end-to-end y nota sobre la galería pública opcional.
+
 ## 2026-10-31 — handoff a un asistente nuevo
 - Nuevo `HANDOFF.md`: orden de lectura, las 10 reglas clave y temas abiertos al 31/10/2026.
 - Nuevo `AUTOMATIONS.md`: tareas programadas para recrear (búsqueda laboral 5×/día, alertas de entrevistas, embajadores, novedades de concursos, actualización diaria del repo, Shorts, panel de postulaciones).

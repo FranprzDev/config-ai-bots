@@ -41,4 +41,4 @@ Distilled from fixes his reviews required on his TypeScript/Node/LangGraph/Next.
 
 ## Merging
 - On his own repos: once the PR is rebased, `mergeable_state=clean` and every check on the current head is green, merge it yourself through the API pinned to that head SHA (merge method matching the repo's history). Never merge with conflicts or red/pending checks.
-- **Exception — the private client repo `private-client`**: never merge any PR without his explicit OK on that PR. Post a test report on the PR and wait.
+- **Exception — the private client repo**: never merge any PR without his explicit OK on that PR. Post a test report on the PR and wait.

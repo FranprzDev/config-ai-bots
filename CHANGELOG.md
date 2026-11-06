@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-06 — review de reglas y aprendizajes
+- `skills/i-have-adhd/`: nueva skill portable (MIT, de [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)) con su LICENSE y fila en `skills/README.md`; este review la suma al índice del `README.md`.
+- `PROYECTOS.md` y `HANDOFF.md`: ScopeProfit corregido (sigue en NestJS/TypeScript con xmcp; la reescritura a FastAPI se descartó y el bot de Telegram ya no existe).
+- `REGLAS.md` §4: las credenciales tienen alcance por proyecto (no se reusan en otro proyecto sin permiso).
+- `GIT_WORKFLOW.md` §1: se aclara cuándo vale un PR draft (trabajo en curso) vs. el PR listo para review que pido como entregable.
+- `HANDOFF.md`: el orden de lectura menciona `OPENCODE.md`, `LANDING_DISENO.md` y `DATA_VIDEO_GUIDELINES.md`.
+- `INSIGHTS.md`: tres aprendizajes nuevos (verificar antes de reportar "enviado", avisar antes de disparar verificaciones de cuenta, una corrida simulada no es validación).
+
 ## 2026-11-03 — skill stack-diagram
 - `OPENCODE.md`: nueva sección para el skill de agente [caru-ini/stack-diagram](https://github.com/caru-ini/stack-diagram) (MIT), que genera diagramas de arquitectura del stack con logos oficiales (HTML autocontenido, PNG light/dark, React): instalación en `~/.config/opencode/skills/`, requisitos, validación end-to-end y nota sobre la galería pública opcional.
 

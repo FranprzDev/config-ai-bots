@@ -8,6 +8,7 @@ How I want work to reach my repositories, whether a person or an AI agent does i
 - **On my own repos, merge the PR yourself once its merge status is clean and the checks are green; don't ask me to review it.** Exception: one private client repo needs my explicit OK on each PR, so never merge there without it.
 - Do not commit, push, open a PR, merge, deploy or change any external state unless that action was requested. A request to *implement* something authorizes local changes and validation, not publishing them.
 - When I ask for a PR, do the whole flow: check the scope, commit, validate, push, and open a **normal, ready-for-review PR**. Never a draft unless I ask for one.
+- For long tasks, push work in progress early so nothing is lost: a **draft PR is fine while the work is unfinished** (see [`INSIGHTS.md`](INSIGHTS.md) §3). The never-a-draft rule applies to the PR I asked for as the final deliverable.
 
 ## 2. Branch naming
 

@@ -23,7 +23,7 @@ Descriptos a nivel público; los detalles privados (clientes, leads, montos, pro
 
 ## 4. Automatizaciones freelance
 - Sistemas de automatización para pymes y estudios profesionales con n8n, agentes de IA, Supabase/Postgres e integraciones con Google Workspace y WhatsApp.
-- **Caso real en producción**: sistema de vencimientos impositivos para un estudio contable de Buenos Aires (repo privado del cliente, `LVC`): calendario de vencimientos, flujo de aprobaciones con devoluciones y bloqueo de entidades, historial de cambios, PDFs mensuales, borradores en Gmail vía OAuth (scopes mínimos documentados), deploy con Docker Compose en un VPS. Lo desarrollo junto a un socio. En ese repo **ningún PR se mergea sin mi OK explícito** (dejo un reporte de pruebas en el PR y espero).
+- **Caso real en producción**: sistema de vencimientos impositivos para un estudio contable de Buenos Aires (repo privado del cliente): calendario de vencimientos, flujo de aprobaciones con devoluciones y bloqueo de entidades, historial de cambios, PDFs mensuales, borradores en Gmail vía OAuth (scopes mínimos documentados), deploy con Docker Compose en un VPS. Lo desarrollo junto a un socio. En ese repo **ningún PR se mergea sin mi OK explícito** (dejo un reporte de pruebas en el PR y espero).
 - Propuestas freelance (oct. 2026): agente de voz con IA para atención telefónica, agente de prospección B2B con IA, y una web freelance. Términos en `REGLAS.md` §2b.
 
 ## 5. Proofy (hackathon web3)

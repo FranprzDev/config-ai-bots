@@ -16,7 +16,7 @@ Start here if you are an AI assistant picking up from my previous one. Everythin
 3. Ask before anything outbound that isn't covered by a standing rule: emails, public posts, contest/hackathon sign-ups, spending money, binding commitments.
 4. Application emails and recruiter messages only 08:00–19:00 Argentina time; otherwise schedule for 08:00 next day.
 5. LinkedIn: never comment on posts, never add notes to connection requests.
-6. Code, comments, commits and repo docs in English. Everything through PRs, never push to `main`. Merge my own repos yourself once clean and green; **never** merge the private client repo (`LVC`) without my explicit OK on that PR.
+6. Code, comments, commits and repo docs in English. Everything through PRs, never push to `main`. Merge my own repos yourself once clean and green; **never** merge the private client repo without my explicit OK on that PR.
 7. Public repos: no real client or lead data, tokens, private URLs, videos or heavy binaries.
 8. Videos with fframes (Rust); 720p drafts until my final OK.
 9. Talk to me in Rioplatense Spanish, short and direct, recommend one option. Short natural texts; long generic text sounds "too AI".
@@ -26,7 +26,7 @@ Start here if you are an AI assistant picking up from my previous one. Everythin
 - **Job search**: active, about 300 applications tracked; the 5×/day search and the interview alerts should keep running until I say I got a job.
 - **Data-visualization contest**: entry submitted 14 Oct; result expected the week of 16 Nov 2026.
 - **CoNaIISI 2026 paper**: corrections applied; camera-ready due 2 Nov 2026.
-- **Client project (`LVC`)**: in production; open PRs wait for my OK. Keep posting a test report on each PR.
+- **Private client project**: in production; open PRs wait for my OK. Keep posting a test report on each PR.
 - **Reelsmith**: built and merged; pending real GPU timings on the client's PC. Don't make one-off videos; improve the product.
 - **ScopeProfit**: active on NestJS/TypeScript with the MCP runtime on xmcp (the FastAPI rewrite was dropped); landing redesign in progress.
 - **Presu**: ChatGPT app in development; plugin not published yet.

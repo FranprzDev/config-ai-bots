@@ -37,8 +37,8 @@ Descriptos a nivel público; los detalles privados (clientes, leads, montos, pro
 
 ## 7. ScopeProfit
 - Copiloto de alcance para freelancers: idea desordenada del cliente → brief versionado (entrevista por rondas de preguntas, glosario y decisiones, estilo *grill with docs*) → documento de propuesta (PDF/DOCX). Sin cotización ni precios: fuera de alcance.
-- MCP-first: servidor MCP (Streamable HTTP + stdio, API keys y OAuth 2.1 para ChatGPT) + landing en Next.js, sin frontend de app; bot de Telegram.
-- Estado: backend en reescritura de NestJS a **Python/FastAPI** (deploy previsto en Vercel + Neon). Repo: [FranprzDev/ScopeProfit](https://github.com/FranprzDev/ScopeProfit).
+- MCP-first: servidor MCP (Streamable HTTP + stdio, API keys y OAuth 2.1 para ChatGPT) + landing, sin frontend de app.
+- Estado: activo en **NestJS/TypeScript** con el runtime MCP migrado a **xmcp** (la reescritura a FastAPI quedó descartada y el bot de Telegram se eliminó); landing en rediseño. Repo: [FranprzDev/ScopeProfit](https://github.com/FranprzDev/ScopeProfit).
 
 ## 8. Presu
 - App de ChatGPT (servidor MCP): una persona con una idea de producto la convierte en un alcance claro mediante *grilling with docs*; al final genera un PDF con alcance y cotización. Proyectos guardables, créditos gratuitos, pagos de créditos extra solo en testnet.

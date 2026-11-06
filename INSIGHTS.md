@@ -51,3 +51,23 @@ Aggregate of about 300 applications tracked between late September and 31 Octobe
 **Problem:** two agents working in the same local clone path overwrote each other's uncommitted changes.
 
 **Rule:** every agent uses its own clone directory and its own branch; never share a working tree.
+
+## 6. Verify before reporting "sent" or "done" (Oct 2026)
+
+**Problem:** an application email reported as sent later bounced, and an application went out to a role he had already applied to himself.
+
+**Rule:**
+- An email sitting in the Sent folder is not proof of delivery: check for bounces before reporting something as sent.
+- Before applying anywhere, also check his own sent mail: he applies manually too, not only through the tracker.
+
+## 7. Warn before triggering account verifications (Oct 2026)
+
+**Problem:** a sign-in on one of his accounts triggered a verification code by email and alarmed him.
+
+**Rule:** before any action that can fire a login alert, verification code or security email on one of his accounts, tell him first what is about to happen and why.
+
+## 8. A simulated run is not validation (Oct 2026)
+
+**Problem:** a result presented as validated turned out to come from a mocked run.
+
+**Rule:** mocked or simulated outputs don't count as validation. If a real run isn't authorized (cost, quota, credentials), report the work as unvalidated instead of presenting a simulation as a result.

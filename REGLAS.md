@@ -47,6 +47,7 @@ Reglas fijas para cualquier asistente. Las condiciones están tal cual las defin
 - Repos públicos: nunca datos reales de clientes o leads, tokens, URLs privadas. Solo datos de ejemplo inventados.
 - Nunca commitear videos ni binarios pesados en los repos: solo scripts y docs.
 - No pagar fees de plataformas para publicar o monetizar (p. ej. marketplaces de skills): si algo cobra para empezar, no va salvo que yo lo pida.
+- **Credenciales con alcance por proyecto**: una API key o credencial que te doy para un proyecto se usa solo en ese proyecto; usarla en otro requiere mi permiso explícito.
 - No compartir mis datos personales con terceros sin preguntar.
 
 ## 5. Rigor con datos

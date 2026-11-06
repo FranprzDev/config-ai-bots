@@ -7,7 +7,7 @@ Start here if you are an AI assistant picking up from my previous one. Everythin
 2. [`REGLAS.md`](REGLAS.md): every standing rule, what you may do alone and what needs my OK.
 3. [`PERFIL.md`](PERFIL.md) and [`PROYECTOS.md`](PROYECTOS.md): my profile and the state of every project.
 4. [`FLUJOS.md`](FLUJOS.md) and [`AUTOMATIONS.md`](AUTOMATIONS.md): recurring workflows and the scheduled jobs to recreate.
-5. [`GIT_WORKFLOW.md`](GIT_WORKFLOW.md), [`CODE_REVIEW_LESSONS.md`](CODE_REVIEW_LESSONS.md) and [`skills/`](skills/): how code reaches my repos and how I want it written.
+5. [`GIT_WORKFLOW.md`](GIT_WORKFLOW.md), [`CODE_REVIEW_LESSONS.md`](CODE_REVIEW_LESSONS.md) and [`skills/`](skills/): how code reaches my repos and how I want it written. [`OPENCODE.md`](OPENCODE.md) covers my free-models multi-agent setup; [`LANDING_DISENO.md`](LANDING_DISENO.md) and [`DATA_VIDEO_GUIDELINES.md`](DATA_VIDEO_GUIDELINES.md) are the landing-design and data-video guides.
 6. [`INSIGHTS.md`](INSIGHTS.md): lessons learned the hard way.
 
 ## The ten things that matter most
@@ -28,7 +28,7 @@ Start here if you are an AI assistant picking up from my previous one. Everythin
 - **CoNaIISI 2026 paper**: corrections applied; camera-ready due 2 Nov 2026.
 - **Client project (`LVC`)**: in production; open PRs wait for my OK. Keep posting a test report on each PR.
 - **Reelsmith**: built and merged; pending real GPU timings on the client's PC. Don't make one-off videos; improve the product.
-- **ScopeProfit**: FastAPI backend rewrite in progress.
+- **ScopeProfit**: active on NestJS/TypeScript with the MCP runtime on xmcp (the FastAPI rewrite was dropped); landing redesign in progress.
 - **Presu**: ChatGPT app in development; plugin not published yet.
 - **Portfolio**: promo video v5 (1080p) done; LinkedIn launch post in draft (portfolio and MCP server presented as two separate things).
 - **YouTube heuristics channel**: next suggested topic Ant Colony Optimization.

@@ -140,9 +140,10 @@ En `~/.config/opencode/opencode.json` (global) o en un `opencode.json` en la ra�
 - Solo código público o ficticio: CrowLLM dice no registrar prompts pero los transmite al proveedor upstream y la retención del upstream no está despejada ([privacy](https://crowllm.com/privacy-policy)). Nada de repos privados hasta autorización explícita.
 - Métricas medidas por el propio gateway (ventana 8-9 nov 2026): ~93-94% de éxito y ~23s de latencia media. No prometer cuota infinita: el plan gratis puede tener techo de requests por minuto.
 - Verificado sin clave el 2026-11-09: el modelo figura servido en `GET https://crowllm.com/v1/models` (endpoint anónimo).
+- Verificado sin clave el 2026-11-09 con OpenCode 1.19.5 (instalado local con `npm i opencode-ai`): el bloque `provider.crowllm` de arriba parsea, `opencode models` lista `crowllm/deepseek-v4-flash-uncensored:free`, y un `opencode run` con clave dummy llega al servidor de CrowLLM (responde `Invalid token`). O sea: baseURL, lectura del env `CROWLLM_API_KEY` e id de modelo están cableados de punta a punta hasta la autenticación; falta solo la clave real.
 
 ### Pendiente para validar (cuando haya clave)
 
-1. `opencode models` lista el modelo.
-2. `opencode run -m crowllm/deepseek-v4-flash-uncensored:free "reply with the single word: ready"` responde.
+1. ~~`opencode models` lista el modelo.~~ (verificado 2026-11-09, sin clave)
+2. `opencode run -m crowllm/deepseek-v4-flash-uncensored:free "reply with the single word: ready"` responde con la clave real.
 3. Edición real con tool calls en un repo de prueba público, midiendo latencia y éxito.

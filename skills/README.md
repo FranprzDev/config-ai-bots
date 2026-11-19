@@ -10,5 +10,6 @@ Portable skill docs I used with my previous assistant. Each folder has a `SKILL.
 | [`premium-scroll-pages`](premium-scroll-pages/SKILL.md) | Landing pages or scroll sites that must not look like "AI slop". |
 | [`cinematic-shot`](cinematic-shot/SKILL.md) | Directing a cinematic product launch video from real UI. |
 | [`i-have-adhd`](i-have-adhd/SKILL.md) | ADHD-friendly output shape: action first, numbered steps, no filler (MIT, from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)). |
+| [`utn-aula`](utn-aula/SKILL.md) | Any UTN task: one-command utn-mcp setup to read the aula virtual and Sysacad from a fresh sandbox. |
 
 See also [`../LANDING_DISENO.md`](../LANDING_DISENO.md) and [`../DATA_VIDEO_GUIDELINES.md`](../DATA_VIDEO_GUIDELINES.md).

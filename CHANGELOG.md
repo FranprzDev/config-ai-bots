@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-19 — skill utn-aula (bootstrap de utn-mcp)
+- `skills/utn-aula/`: nueva skill con setup de un comando de [utn-mcp](https://github.com/nialvape/utn-mcp) para sandboxes vacíos de agentes: instala la versión pineada en `~/.utn-mcp`, genera el helper `utn-call.js` y verifica el login con `aula_list_courses`. Credenciales solo por variables de entorno desde el secret store de la plataforma, nunca en el repo ni en argumentos.
+- Fila nueva en `skills/README.md`.
+
 ## 2026-11-06 — review de reglas y aprendizajes
 - `skills/i-have-adhd/`: nueva skill portable (MIT, de [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)) con su LICENSE y fila en `skills/README.md`; este review la suma al índice del `README.md`.
 - `PROYECTOS.md` y `HANDOFF.md`: ScopeProfit corregido (sigue en NestJS/TypeScript con xmcp; la reescritura a FastAPI se descartó y el bot de Telegram ya no existe).

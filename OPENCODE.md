@@ -101,9 +101,9 @@ Skill de agente que genera un diagrama de arquitectura del stack a partir de una
 
 ## Ruta CrowLLM (API key propia, modelo gratis) — SIN VALIDAR
 
-Alternativa al provider `opencode` para cuando los modelos gratis sin clave están saturados: CrowLLM (gateway OpenAI-compatible) sirve `deepseek-v4-flash-uncensored:free` a $0/M tokens de entrada y salida, sin tarjeta ([ficha del modelo](https://crowllm.com/models/deepseek-v4-flash-uncensored:free)).
+Alternativa al provider `opencode` para cuando los modelos gratis sin clave están saturados: CrowLLM (gateway OpenAI-compatible) sirve `deepseek-v4-flash-0731:free` a $0/M tokens de entrada y salida, sin tarjeta ([ficha del modelo](https://crowllm.com/models/deepseek-v4-flash-0731:free)).
 
-**Estado 2026-11-09: configuración documentada, NO validada.** El alta con contraseña está deshabilitada por el sitio (solo OAuth de terceros); falta crear la cuenta y la API key. Hasta tener clave y prueba real de tool calls/edición, no usar esta ruta para trabajo real.
+**Estado 2026-11-19: configuración documentada, NO validada con clave real.** El alta con contraseña está deshabilitada por el sitio (solo OAuth de terceros); falta crear la cuenta y la API key. El modelo documentado el 2026-11-09 (`deepseek-v4-flash-uncensored:free`) ya no figura en el catálogo de CrowLLM; se cambió por `deepseek-v4-flash-0731:free`, que sí está servido. El dashboard sigue detrás de un desafío de Cloudflare que el navegador no supera (intentos 2026-11-09 y 2026-11-19), así que la creación de la clave queda pendiente. Hasta tener clave y prueba real de tool calls/edición, no usar esta ruta para trabajo real.
 
 ### Config ([docs oficiales](https://crowllm.com/docs/integrations/opencode))
 
@@ -121,8 +121,8 @@ En `~/.config/opencode/opencode.json` (global) o en un `opencode.json` en la ra�
         "apiKey": "{env:CROWLLM_API_KEY}"
       },
       "models": {
-        "deepseek-v4-flash-uncensored:free": {
-          "name": "deepseek-v4-flash-uncensored:free"
+        "deepseek-v4-flash-0731:free": {
+          "name": "deepseek-v4-flash-0731:free"
         }
       }
     }
@@ -132,18 +132,18 @@ En `~/.config/opencode/opencode.json` (global) o en un `opencode.json` en la ra�
 
 - La clave se lee de la variable de entorno `CROWLLM_API_KEY`; nunca literal en el archivo ni en el repo.
 - Clave dedicada para esta ruta (no reutilizar la de TokenFactory, OpenRouter ni otras). Crearla en el dashboard de CrowLLM; si el dashboard lo permite, limitarla al modelo gratis y con tope de gasto $0.
-- Uso: `opencode run -m crowllm/deepseek-v4-flash-uncensored:free "..."` o elegirlo en el picker de modelos.
+- Uso: `opencode run -m crowllm/deepseek-v4-flash-0731:free "..."` o elegirlo en el picker de modelos.
 
 ### Reglas de esta ruta
 
 - Solo el modelo `:free`; nunca modelos pagos del catálogo.
 - Solo código público o ficticio: CrowLLM dice no registrar prompts pero los transmite al proveedor upstream y la retención del upstream no está despejada ([privacy](https://crowllm.com/privacy-policy)). Nada de repos privados hasta autorización explícita.
 - Métricas medidas por el propio gateway (ventana 8-9 nov 2026): ~93-94% de éxito y ~23s de latencia media. No prometer cuota infinita: el plan gratis puede tener techo de requests por minuto.
-- Verificado sin clave el 2026-11-09: el modelo figura servido en `GET https://crowllm.com/v1/models` (endpoint anónimo).
-- Verificado sin clave el 2026-11-09 con OpenCode 1.19.5 (instalado local con `npm i opencode-ai`): el bloque `provider.crowllm` de arriba parsea, `opencode models` lista `crowllm/deepseek-v4-flash-uncensored:free`, y un `opencode run` con clave dummy llega al servidor de CrowLLM (responde `Invalid token`). O sea: baseURL, lectura del env `CROWLLM_API_KEY` e id de modelo están cableados de punta a punta hasta la autenticación; falta solo la clave real.
+- Verificado sin clave el 2026-11-19: `deepseek-v4-flash-0731:free` figura servido en `GET https://crowllm.com/v1/models` (endpoint anónimo); el id anterior `deepseek-v4-flash-uncensored:free` ya no aparece.
+- Verificado sin clave el 2026-11-19 con OpenCode 1.19.6 (instalado local con `npm i opencode-ai`): el bloque `provider.crowllm` de arriba parsea, `opencode models` lista `crowllm/deepseek-v4-flash-0731:free`, y un `opencode run` con clave dummy llega al servidor de CrowLLM (responde `Invalid token`). O sea: baseURL, lectura del env `CROWLLM_API_KEY` e id de modelo están cableados de punta a punta hasta la autenticación; falta solo la clave real.
 
 ### Pendiente para validar (cuando haya clave)
 
-1. ~~`opencode models` lista el modelo.~~ (verificado 2026-11-09, sin clave)
-2. `opencode run -m crowllm/deepseek-v4-flash-uncensored:free "reply with the single word: ready"` responde con la clave real.
+1. ~~`opencode models` lista el modelo.~~ (verificado 2026-11-19, sin clave)
+2. `opencode run -m crowllm/deepseek-v4-flash-0731:free "reply with the single word: ready"` responde con la clave real.
 3. Edición real con tool calls en un repo de prueba público, midiendo latencia y éxito.

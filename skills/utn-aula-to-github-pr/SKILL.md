@@ -10,11 +10,12 @@ Moves a course file from the UTN aula virtual into a GitHub repo with verifiable
 ## Workflow
 
 1. Set up utn-mcp as in [`utn-aula`](../utn-aula/SKILL.md).
-2. Find the assign in the aula (course + TP name). When the assign links a Google Colab, that Colab is the file: download/export the notebook byte-identical.
-3. Compute `sha256sum` and the byte size of the downloaded file, and verify the download is byte-identical to the original in the aula.
-4. New branch from `main`; commit only that file (commit message in English, no comments added to the file). The PR must contain that file and nothing else.
-5. Open the PR. The summary goes in the PR description (see template), in Spanish, short, with no mention of AI or tooling.
-6. Attach or keep a screenshot of the assign in the aula as supporting evidence when reporting.
+2. Look up the materia in [`materias.md`](materias.md): it maps each aula course to its repo and the per-TP folder convention. If the materia is "sin repo", stop and ask — never create a repo without his OK.
+3. Find the assign in the aula (course + TP name). When the assign links a Google Colab, that Colab is the file: download/export the notebook byte-identical.
+4. Compute `sha256sum` and the byte size of the downloaded file, and verify the download is byte-identical to the original in the aula.
+5. New branch from `main`; commit only that file under the materia's folder convention (commit message in English, no comments added to the file). The PR must contain that file and nothing else.
+6. Open the PR. The summary goes in the PR description (see template), in Spanish, short, with no mention of AI or tooling.
+7. Attach or keep a screenshot of the assign in the aula as supporting evidence when reporting.
 
 ## PR description template
 
